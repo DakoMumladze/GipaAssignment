@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+header nav{
+    background:#2C5364;
+}
+header .brand-logo{
+    height: 2.5rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+.slider-container{
+    background-color: #f2f2f2;
+}
+.swiper-container {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+.swiper-title{
+    position: absolute;
+    transform: translate(50%);
+    top: 30%;
+    font-weight: bold;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 2.5rem;
+    right: 50%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.swiper-slide{
+    position: relative;
+    border-radius: 0.2rem;
+}
+.card{
+    text-align: center;
+}
+.card-title{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color:#2C5364;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.card-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="logo" class="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Design</a>
+                    <a class="dropdown-item" href="#">Health</a>
+                    <a class="dropdown-item" href="#">Music</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+                <input type="text" placeholder="Search..." class="form-control">
+            </ul>
+            </div>
+        </nav>
+    </header> 
+    <section class="container-fluid slider-container pt-3 pb-4">
+    <div class="container">
+        <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background:url('img/img1.jpg') no-repeat center/cover;">
+                <p class="swiper-title">"What Your Music Preference Says About You and Your Personality"</p>
+            </div>
+            <div class="swiper-slide" style="background:url('img/img2.png') no-repeat center/cover;">
+                <p class="swiper-title">"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world"</p>
+            </div>
+            <div class="swiper-slide" style="background:url('img/img3.jpg') no-repeat center/cover;">
+                <p class="swiper-title">"There are three responses to a piece of design – yes, no, and WOW!"</p>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    </section>
+    <section class="container-fluid blog-posts-container pt-3 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('img/blog1.png');"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">DESIGN</h5>
+                                <p class="card-text">3 Benefits of Minimalism In Interior Design.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img" style="background-image: url('img/blog2.jpg');"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">HEALTH</h5>
+                                    <p class="card-text">10 Interesting Facts About Caffeine.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img" style="background-image: url('img/blog3.jpg');"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Music</h5>
+                                    <p class="card-text">The Power of Music to Reduce Stress.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+<script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
