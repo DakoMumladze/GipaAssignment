@@ -1,0 +1,27 @@
+{
+  "name": "gipaassignment",
+  "version": "1.0.0",
+  "description": "Personal Blog",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "package.json": "^2.0.1",
+    "popper.js": "^1.14.7",
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakoMumladze/GipaAssignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakoMumladze/GipaAssignment/issues"
+  },
+  "homepage": "https://github.com/DakoMumladze/GipaAssignment#readme"
+}
