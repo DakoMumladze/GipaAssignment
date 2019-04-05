@@ -59,4 +59,16 @@ header .brand-logo{
     background-position: center;
     background-size: cover;
     height: 15rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.tab-pane .container{
+    padding-left: 0;
+}
+.nav-tabs .nav-link{
+    color:#2C5364;
+    font-weight: bold;
+}
+.nav-tabs .nav-link.active{
+    color:#bd2130;
 }
